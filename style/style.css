@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.btn-primary {
+    color: #005FAC;
+    text-align: right;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 5px;
+    background: #FFF;
+    width: 160px;
+    height: 64px;
+    padding: 20px 25px;
+    text-decoration: none;
+}
+
+.btn-second {
+    color: #fff;
+    background-color: #005FAC !important;
+    text-align: right;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 5px;
+    background: #FFF;
+    width: 160px;
+    height: 64px;
+    padding: 20px 25px;
+    text-decoration: none;
+}
+
+.banner {
+    background-image: url(/images/banner/banner3.png);
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-size: cover;
+    height: 100vh;
+    text-align: right;
+    display: flex;
+}
+
+.banner-contant {
+    margin: 200px 230px 0 800px;
+}
+
+.banner-contant h2 {
+    color: #FFF;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.banner-contant p {
+    color: #FFF;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+    margin: 25px 0 30px 0;
+}
+
+.skill {
+    display: flex;
+    align-items: center;
+    margin: 100px 0;
+}
+
+main {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.skill-contant {
+    margin-left: 100px;
+}
+
+.skill-contant h2 {
+    color: #151414;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 25px;
+}
+
+.skill-contant p {
+    color: #444343;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 15px;
+
+}
+
+.material-symbols-outlined {
+    color: #16D887;
+
+}
+
+.check h4 {
+    color: #444343;
+    margin: 8px 0;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.plan-contant {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.plan-title {
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    color: #151414;
+    margin-bottom: 50px;
+}
+
+.plan-contant h3 {
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    color: #151414;
+    margin: 25px 0 15px 0;
+}
+
+.plan-contant p {
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    color: #737272;
+}
+
+.call-now {
+    background-image: url(/images/gradient1.png);
+    height: 100%;
+}
+
+.call {
+    margin: 130px 0;
+    background-image: url(/images/watch.png);
+    height: 300px;
+
+}
+
+.call-now>div {
+    padding: 65px 60px;
+}
+
+.call-now h2 {
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    color: white;
+
+}
+
+.footer {
+    display: flex;
+    /* justify-content: space-betwe/ */
+    justify-content: space-around;
+    align-items: center;
+    background-color: #151414;
+    height: 577px;
+    padding: 0 200px;
+
+}
+
+.footer>div {
+    width: 50%;
+}
+
+.footer-info h2 {
+    color: #F8F8F8;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.footer-info p {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 16px 0 20px 0;
+}
+
+.footer-info h6 {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 15px;
+}
+
+.footer-info img {
+    margin-right: 10px;
+}
+
+.footer-contact h2 {
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 30px;
+}
+
+.footer-contact input[type="email"] {
+    border-radius: 8px;
+    border: 1px solid #FFF;
+    background: transparent;
+    color: #F3F3F3;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.footer-contact {
+    margin-left: 200px;
+}
